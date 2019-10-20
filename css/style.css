@@ -1,0 +1,42 @@
+/******************************************************************
+************************ Body style *******************************
+******************************************************************/
+
+
+body{
+	font-size: 30px;
+	color: black;
+	background-color: white;
+	float: 	left;
+}
+/******************************************************************
+*************************** Header ********************************
+******************************************************************/
+#header-nav {
+	border-radius: 0;
+	background-color: white;
+}
+.navbar-brand{
+	padding-top: 55px;
+	margin-bottom: 80px;
+}
+
+.navbar-brand h1{
+	text-transform: uppercase;
+	margin-top: 0;
+	text-shadow: 1px 1px 1px #222;
+	color: black;
+	font-size: 40px;
+	line-height: 0px;
+	margin-right: 380px;
+	margin-bottom: 200px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+.modi {
+	float: right;
+}
