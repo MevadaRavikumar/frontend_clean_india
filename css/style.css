@@ -40,3 +40,50 @@ body{
 .modi {
 	float: right;
 }
+
+
+.panel-footer  {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top: 0;
+	background-color: white;
+}
+
+.panel-footer div.row {
+	margin-bottom: 55px;
+	background-color: white;
+}
+#hours, #address {
+	line-height: 1;
+	text-align: center;
+	
+}
+#hours > span, #address > span{
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+#address p {
+	color: black;
+	font-size: 20px;
+}
+#address {
+	font-size: 20px;
+}
+#hours p {
+	text-align: center;
+	font-size: 20px;
+}
+#testimonials p {
+	font-style: italic;
+	font-size: 20px;
+}
+#testimonials p:nth-child(2) {
+	font-weight: bold;
+	font-size: 20px;
+}
+.text-center {
+	margin-top: 35px;
+	font-size: 20px;
+}
